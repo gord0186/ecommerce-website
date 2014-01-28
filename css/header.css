@@ -1,3 +1,37 @@
 @charset "UTF-8";
 /* CSS Document */
 
+.list-group-inline{
+	padding:.5rem;
+}
+
+.nav{
+	display:block;
+	float:right;
+	border-radius:4px;
+	overflow:hidden;
+}
+
+.nav-text-color,
+.nav-text-color:link,
+.nav-text-color:visited{
+	color:#171717;
+	font-weight:200;
+}
+
+.nav-back{
+	overflow:hidden;
+}
+.nav-text-color,
+.nav-text-color:hover,
+.nav-text-color:focus{
+	color:#629F00;
+	transition:4sec;
+}
+/*------------------------Logo--------------------------*/
+
+.logo{
+	display:block;
+	float:left;
+	margin:.5rem;
+}
