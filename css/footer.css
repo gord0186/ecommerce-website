@@ -1,3 +1,20 @@
 @charset "UTF-8";
 /* CSS Document */
 
+.footer{
+	float:left;
+	display:block;
+}
+
+/*-------------------------nav Bottom----------------------*/
+.nav-btm{
+	float:right;
+	display:block;	
+}
+
+/*-------------------------icons-------------------------*/
+
+.icon{
+	width:5%;
+	border:none;
+}
