@@ -6,25 +6,28 @@
 	<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400' rel='stylesheet' type='text/css'>
 	<link href="../css/buttons.css" rel="stylesheet">
 	<link href="../css/header.css" rel="stylesheet">
-	<link href="../css/search-bar.css" rel="stylesheet">
 	<link href="../css/typography.css" rel="stylesheet">
 	<link href="../css/list-group.css" rel="stylesheet">
 </head>
 	<body>
-		
-		<div class="nav-back">
-			<img class="logo" src="http://placehold.it/50x50" alt="company logo">
-			
-			<div>
-				<nav>
-					<ul class="list-group nav giga">
-						<li class="list-group-item list-group-inline"><a href="#" class="nav-text-color">Home</a></li>
-						<li class="list-group-item list-group-inline"><a href="#" class="nav-text-color">Product</a></li>
-						<li class="list-group-item list-group-inline"><a href="#" class="nav-text-color">Location</a></li>
-					</ul>
-				</nav>
+		<div>
+			<div class="nav-back">
+				<img class="logo" src="http://placehold.it/50x50" alt="company logo">
+				
+				<div>
+					<a href="#nav" class="nav-btn hide-text"></a>
+					<nav class="nav nav-top" data-state="collapsed">
+
+						<ul class="list-group nav giga">
+							<li class="list-group-item list-group-inline"><a href="#" class="nav-text-color">Home</a></li>
+							<li class="list-group-item list-group-inline"><a href="#" class="nav-text-color">Product</a></li>
+							<li class="list-group-item list-group-inline"><a href="#" class="nav-text-color">Location</a></li>
+						</ul>
+					</nav>
+				</div>
 			</div>
 		</div>
-
+		
+		<script src="../js/nav.js"></script>
 	</body>
 </html>
