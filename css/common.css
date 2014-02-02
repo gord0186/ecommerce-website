@@ -1,3 +1,6 @@
 @charset "UTF-8";
 /* CSS Document */
 
+html{
+	padding:.5rem;
+}

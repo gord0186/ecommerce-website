@@ -23,3 +23,10 @@
 	float:right;
 	margin:0 0 10px 0;
 }
+
+@media only screen and (min-width: 28em){
+	.media-img-stacked{
+		padding:.5rem;
+		float:left;
+	}
+}
