@@ -1,9 +1,11 @@
 @charset "UTF-8";
 /* CSS Document */
 
-.footer{
-	float:left;
-	display:block;
+footer{
+	background:#E1FCE1;
+	background-image:linear-gradient(to bottom, #fff, #E1FCE1);
+	overflow:hidden;
+	padding:.5rem;
 }
 
 /*-------------------------nav Bottom----------------------*/
@@ -12,9 +14,16 @@
 	display:block;	
 }
 
+.nav-btm li{
+	padding:0 .2rem;
+}
+	
 /*-------------------------icons-------------------------*/
 
 .icon{
-	width:5%;
+	width:30px;
 	border:none;
+	float:right;
+	margin:.1rem;
+	margin-top:-1rem;
 }
