@@ -8,22 +8,47 @@ footer{
 	padding:.5rem;
 }
 
+footer p{
+	text-align:center;
+}
+
+@media only screen and (min-width: 23em){
+	footer p{
+		text-align:start;
+	}
+}
 /*-------------------------nav Bottom----------------------*/
-.nav-btm{
-	float:right;
-	display:block;	
+.nav-btm ul{
+	padding:0;
 }
 
 .nav-btm li{
 	padding:0 .2rem;
+	text-align:center;
+	display:block;
+	padding:.25rem;
 }
+
+@media only screen and (min-width: 23em){
 	
+	.nav-btm li{
+		padding:0 .25rem;
+	float:right;
+	display:inline;
+	text-align:start;	
+	}
+	
+}
 /*-------------------------icons-------------------------*/
 
 .icon{
 	width:30px;
-	border:none;
 	float:right;
-	margin:.1rem;
-	margin-top:-1rem;
+}
+@media only screen and (min-width: 23em){
+	.icon{
+		border:none;
+		margin:.1rem;
+		margin-top:-1rem;
+	}
 }
