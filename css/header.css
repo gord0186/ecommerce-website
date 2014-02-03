@@ -18,7 +18,7 @@
 .nav-btn:hover,
 .nav-btn:focus,
 .nav-btn:active{
-	background-color:rgba(208,252,171,1.00);
+	background-color:rgba(208,252,171,.25);
 }
 
 .nav-top{
@@ -60,9 +60,11 @@
 .nav-text-color,
 .nav-text-color:hover,
 .nav-text-color:focus{
-	color:#629F00;
-	transition:4sec;
-	width:100%;
+	transition:10sec;
+	border-bottom:1px solid #fff;
+	display:block;
+	width:50%;
+	margin:.1rem auto;
 }
 
 @media only screen and (min-width: 20em){
@@ -93,6 +95,16 @@
 	
 	.nav a{
 		border:none;
+	}
+	
+	.nav-text-color{
+		width:100%;
+	}
+	.nav-text-color,
+	.nav-text-color:hover,
+	.nav-text-color:focus{
+		margin:0 0;
+		width:100%;
 	}
 }
 
