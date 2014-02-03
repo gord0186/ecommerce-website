@@ -1,6 +1,7 @@
 @charset "UTF-8";
 /* CSS Document */
-	
+/*--------------------------nav-btn----------------------------*/
+
 .nav-btn,
 .nav-btn:link,
 .nav-btn:visited{
@@ -10,13 +11,14 @@
 	right:5%;
 	height:40px;
 	width:40px;
-	background:white url(../images/nav-icon.svg) no-repeat center center;
+	background: url(../images/nav-icon.svg) no-repeat center center;
+	border:none;
 }
 
 .nav-btn:hover,
 .nav-btn:focus,
 .nav-btn:active{
-	background-color:#4E3602;
+	background-color:rgba(208,252,171,1.00);
 }
 
 .nav-top{
@@ -27,11 +29,14 @@
 	display:block;
 }
 
+/*--------------------------nav----------------------------*/
+
 .nav-text-color,
 .nav-text-color:link,
 .nav-text-color:visited{
-	color:#171717;
+	color:#FFFFFF;
 	font-weight:200;
+	border:none;
 }
 
 .nav ul{
@@ -41,33 +46,26 @@
 	padding:.5rem;
 	display:block;
 	text-align:center;
+	border-bottom:1px;
 }
 .nav-back{
-	background-color:#E1FCE1;
-	background-image:linear-gradient(to bottom, #E1FCE1, #fff);
 	overflow:hidden;
+	background-image:url(../images/wood.jpg);
+	box-shadow:0 0 10px;
+}
+
+.nav-text-color{
+	color:rgba(159,242,172,1.00);	
 }
 .nav-text-color,
 .nav-text-color:hover,
 .nav-text-color:focus{
 	color:#629F00;
 	transition:4sec;
-}
-/*------------------------Logo--------------------------*/
-
-.logo{
-	display:block;
-	margin:.5rem;
+	width:100%;
 }
 
 @media only screen and (min-width: 20em){
-	
-	.logo{
-	display:inline-block;
-	float:left;
-	clear:both;
-	}
-	
 	.nav{
 		overflow: auto;
 	}
@@ -91,5 +89,25 @@
 	
 	.nav-top{
 		display:block;
+	}
+	
+	.nav a{
+		border:none;
+	}
+}
+
+/*------------------------Logo--------------------------*/
+
+.logo{
+	display:block;
+	margin:.5rem;
+}
+
+@media only screen and (min-width: 20em){
+	
+	.logo{
+	display:inline-block;
+	float:left;
+	clear:both;
 	}
 }
