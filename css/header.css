@@ -1,6 +1,6 @@
 @charset "UTF-8";
 /* CSS Document */
-/*--------------------------nav-btn----------------------------*/
+/*--------------------------nav-btn small screen-----------------------*/
 
 .nav-btn,
 .nav-btn:link,
@@ -55,7 +55,8 @@
 }
 
 .nav-text-color{
-	color:rgba(159,242,172,1.00);	
+	color:rgba(159,242,172,1.00);
+	color:rgba(216,216,216,1.00)	
 }
 .nav-text-color,
 .nav-text-color:hover,

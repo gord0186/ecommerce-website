@@ -3,14 +3,16 @@
 
 footer{
 	background:#E1FCE1;
-	background-image:linear-gradient(to bottom, #fff, #E1FCE1);
+	background-image:url(../images/wood.jpg);
 	overflow:hidden;
 	padding:.5rem;
 }
 
 footer p{
 	text-align:center;
+	color:#fff;
 }
+
 
 @media only screen and (min-width: 23em){
 	footer p{
@@ -29,13 +31,18 @@ footer p{
 	padding:.25rem;
 }
 
+nav-btm,
+nav-btm,visited{
+	color:#fff;
+}
+
 @media only screen and (min-width: 23em){
 	
 	.nav-btm li{
 		padding:0 .25rem;
-	float:right;
-	display:inline;
-	text-align:start;	
+		float:right;
+		display:inline;
+		text-align:start;	
 	}
 	
 }
@@ -44,6 +51,7 @@ footer p{
 .icon{
 	width:30px;
 	float:right;
+	box-shadow:0 0 10px black;
 }
 @media only screen and (min-width: 23em){
 	.icon{
