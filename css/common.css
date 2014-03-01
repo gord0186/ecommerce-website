@@ -2,6 +2,12 @@
 /* CSS Document */
 
 html{
-	margin:.5rem auto;
-	max-width:600px;
+}
+
+.content{
+	padding:1rem;
+}
+
+.img-l{
+	width:35%;
 }
