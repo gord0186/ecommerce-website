@@ -34,6 +34,7 @@ html{
 	opacity:.5;
 }
 
+
 @media only screen and (min-width: 75em) {
 	
 	.l-float{
@@ -41,7 +42,7 @@ html{
 		top:10%;
 		left:45%;
 		width:50%;
-		color:#FFFFFF;
+		color:rgba(203,200,200,.75);
 	}
 
 	.white{
