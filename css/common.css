@@ -11,3 +11,40 @@ html{
 .img-l{
 	width:35%;
 }
+
+.home-image{
+	width:100%;
+	margin:0 0;
+	padding:0 0;
+}
+.hover{
+	border:none;
+}
+
+.hover,
+.hover:link,
+.hover:visited{
+	border:none;
+}
+.hover:hover,
+.hover:focus,
+.hover:active{
+	transition:ease;
+	color:#0F0F0F;
+	opacity:.5;
+}
+
+@media only screen and (min-width: 75em) {
+	
+	.l-float{
+		position:absolute;
+		top:10%;
+		left:45%;
+		width:50%;
+		color:#FFFFFF;
+	}
+
+	.white{
+		color:#FFFFFF;
+	}
+}
