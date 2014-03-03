@@ -1,8 +1,7 @@
 @charset "UTF-8";
 /* CSS Document */
 
-.promo-small{
-	background-color:rgba(234,232,224,1.00);
-	border-radius:10px;
+.promo-small img{
+	width:100%;
 }
 
