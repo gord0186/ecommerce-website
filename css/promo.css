@@ -3,5 +3,34 @@
 
 .promo-small img{
 	width:100%;
+	position:static;
+}
+.hover-title{
+	overflow:auto;
+	padding:.5rem;
+	background:rgba(0,0,0,1.00);
+	color:#FFFFFF;
+	font-weight:200;
+	text-align:center;
+	margin-top:-.5rem;
+	margin-bottom:.25rem;
+	font-size: 1.0000rem;
+	line-height: 1.5000;
+}
+@media only screen and (min-width: 22em){
+.hover-title{
+	display:inline-block;
+	overflow:auto;
+	position:absolute;
+	padding:.5rem;
+	background:rgba(0,0,0,.5);
+	color:#FFFFFF;
+	font-weight:200;
+	text-align:center;
+	margin-top:-3rem;
+	margin-bottom:.25rem;
+	font-size: 1.4238rem;
+  	line-height: 1.0535;
 }
 
+}
