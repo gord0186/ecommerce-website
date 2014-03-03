@@ -35,7 +35,7 @@ html{
 }
 
 
-@media only screen and (min-width: 75em) {
+@media only screen and (min-width: 76em) {
 	
 	.l-float{
 		position:absolute;
@@ -48,9 +48,18 @@ html{
 	.white{
 		color:#FFFFFF;
 	}
+	
+	.about-l-float{
+		position:absolute;
+		top:10%;
+		left:51%;
+		width:45%;
+		color:rgba(203,200,200,.75);
+	}
+		
 }
 
-/*--------------------------------------------------Thank you page-------------------------------------------*/
+/*--------------------------------------------------Thank you page-------------*/
 
 .thank-you{
 	margin:20%;
