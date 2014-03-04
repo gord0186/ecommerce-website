@@ -2,7 +2,7 @@
 <html>
 <head>
 	<meta charset="UTF-8">
-	<title>Untitled Document</title>
+	<title>{{page.title}}·Whispering Spirit</title>
 	<meta name="handheldfriendly" content="true">
 	<meta name="mobileoptimized" content="240">
 	<meta name="viewport" content="width=device-width,initial=scale=1">
@@ -32,9 +32,9 @@
 				<nav class="nav nav-top" data-state="collapsed">
 
 						<ul class="list-group nav giga">
-							<li class="list-group-item list-group-inline"><a href="{{site.baseurl}}/index.html" class="nav-text-color">Home</a></li>
-							<li class="list-group-item list-group-inline"><a href="{{site.baseurl}}/dreamcetcher/" class="nav-text-color">Product</a></li>
-							<li class="list-group-item list-group-inline"><a href="{{site.baseurl}}/about/" class="nav-text-color">Location</a></li>
+							<li class="list-group-item list-group-inline"><a class="{%if page.url == '/'%}current{%endif%} nav-text-color" href="{{site.baseurl}}/index.html">Home</a></li>
+							<li class="list-group-item list-group-inline"><a class="{%if page.url == '/dreamcatcher/'%}current{%endif%} nav-text-color"  href="{{site.baseurl}}/dreamcatcher/">Product</a></li>
+							<li class="list-group-item list-group-inline"><a class="{%if page.url == '/about/'%}current{%endif%} nav-text-color" href="{{site.baseurl}}/about/" >Location</a></li>
 						</ul>
 					</nav>
 				</div>
