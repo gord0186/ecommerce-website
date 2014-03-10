@@ -69,7 +69,9 @@
 	margin:.1rem auto;
 }
 
-.current {
+.current,
+.current:link,
+.current:visited {
 	border-bottom:1px solid #fff;
 }
 
