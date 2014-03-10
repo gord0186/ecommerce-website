@@ -70,7 +70,7 @@
 }
 
 .current {
-	border-bottom:2px solid #FFFFFF;
+	border-bottom:1px solid #fff;
 }
 
 @media only screen and (min-width: 20em){
