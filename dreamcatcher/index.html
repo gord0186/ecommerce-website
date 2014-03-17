@@ -1,8 +1,67 @@
 ---
-layout: default
+layout: dreamcatcher
 title: Dreamcetcher
 meta: "Dreamcatcher horseshoes: custom, Gallary, car, dreamcatcher"
 ---
 
-<h1>Dream Cetcher</h1>
-<p>This is the page where all of the product are</p>
+
+<!-----------------------------car--------------------------->
+	<div id="car">
+	
+	<div class="shadow">
+		{% include banner.html text="Car Dreamcatcher" %}
+	</div>
+
+	<div class="content">
+		<div>
+			{% include car-product.html %}
+		</div>
+	</div>
+</div>
+
+<!----------------------------------Dream----------------------------->
+	
+	<div id="dream">	
+	
+	<div class="shadow">
+		{% include banner.html text="Dreamcatcher" %}
+	</div>
+	
+	<div class="content">
+		<div>
+			{% include dream-product.html %}
+		</div>
+	</div>
+</div>
+
+
+<!----------------------------------custom----------------------------->
+	<div id="custom">
+	
+	<div class="shadow">
+		{% include banner.html text="Custom Dreamcatcher" %}
+	</div>
+
+	<div class="content">
+		<div>
+			{% include custom-product.html %}
+		</div>
+	</div>
+
+</div>
+
+<!----------------------------------pre-order----------------------------->
+	
+	<div id="pre-order">
+	
+	<div class="shadow">
+		{% include banner.html text="Pre-ordered Dreamcatcher" %}
+	</div>
+
+	<div class="content">
+		<div>
+			{% include pre-order-product.html %}
+		</div>
+	</div>
+
+</div>

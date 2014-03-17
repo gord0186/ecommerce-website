@@ -1,8 +1,11 @@
 .banner-text{
-		background:rgba(77,55,3,1.00) url(../images/wood.jpg) no-repeat center center;
-		background-size:cover;
+		background:rgba(77,55,3,1.00) url(../images/wood.jpg);
 		padding:.5%;
 		color:white;
 		text-align:center;
 		margin-top:-.5rem;
+}
+
+.shadow{
+		box-shadow:0 0 10px rgba(0,0,0,1.00);
 	}
