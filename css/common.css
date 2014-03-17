@@ -8,6 +8,12 @@ html{
 	padding:1rem;
 }
 
+.no-bullet,li,
+.no-bullet,li:link,
+.no-bullet,li:visted{
+	list-style-type: none;	
+}
+
 .img-l{
 	width:35%;
 }
@@ -34,6 +40,9 @@ html{
 	opacity:.5;
 }
 
+.all-white{
+	color:#FFFFFF;
+}
 
 @media only screen and (min-width: 76em) {
 	

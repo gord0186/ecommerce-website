@@ -1,0 +1,15 @@
+---
+layout: default
+---
+
+	<ul  class="no-bullet">
+		{% for ecommerce-website in site.pages %}
+			{% if ecommerce-website %}
+				<li class="unit-s-1 unit-m-1-2 unit-l-1-4">
+					<a href="{{site.baseurl}}{{images.url}}">
+						<img src="{{site.baseurl}}/images/{{dreamcatcher.image}}" alt="horse shoe image"/>
+					</a>
+				</li>
+			{% endif %}
+		{% endfor %}
+	</ul>
