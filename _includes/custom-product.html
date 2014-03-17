@@ -1,0 +1,21 @@
+<div class="promo">
+	<ul>
+		{% for dreamcatcher in site.pages %}
+			{% if dreamcatcher.category == "custom" %}
+				<li  class="btm-border-none hover unit-s-1 unit-m-1-2 unit-l-1-4">
+					<a href="{{site.baseurl}}{{dreamcatcher.url}}">
+						<img src="{{site.baseurl}}/images/{{dreamcatcher.image}}" alt="horse shoe image"/>
+
+						<h2 class="hover-title">{{dreamcatcher.price}}</h2>
+						
+						<div class="content lrg-pra float">
+							<h5>{{dreamcatcher.name}}</h5>
+							<p>{{dreamcatcher.discription}}</p>
+						</div>
+					</a>
+				</li>
+			{% endif %}
+		{% endfor %}
+	</ul>
+</div>
+
