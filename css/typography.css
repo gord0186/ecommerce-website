@@ -1,11 +1,11 @@
-z/*
+/*
   Colour Palette
   - Dark green: #060 - rgb(0, 100, 0)
   - Dark red: #600 - rgb(100, 0, 0)
  */
 
 html{
-	font: normal 100%/1.5 Source Sans Pro,serif;	
+	font: normal 100%/1.5 Source Sans Pro,san-serif;	
 	margin:0 0;
 	padding:0 0;
 	width:100%;
