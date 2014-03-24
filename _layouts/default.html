@@ -30,6 +30,7 @@
 		<div class="nav-back">
 			<a href="{{site.baseurl}}/index.html"><img class="logo" src="{{site.baseurl}}/images/w-s-logo.svg" alt="company logo"></a>
 			
+			
 			<div>
 				<a href="#nav" class="nav-btn hide-text"></a>
 				<nav class="nav nav-top" data-state="collapsed">
@@ -42,7 +43,15 @@
 						</ul>
 					</nav>
 				</div>
+				<div class="search">
+					<form action="{{site.baseurl}}/search/">
+						<input type="text" name="search" placeholder="dreamcetcher" class="keyword"/>
+						<input type="submit" value="search" class="btn"/>
+						
+					</form>
+				</div>
 			</div>
+			
 		</header>	
 		
 {{content}}
