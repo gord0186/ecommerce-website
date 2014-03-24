@@ -4,6 +4,11 @@
 html{
 }
 
+.thank{
+	position:absolute;
+	float:left;	
+}
+
 .content{
 	padding:1rem;
 }
