@@ -1,5 +1,5 @@
 ---
-layout: dreamcatcher
+layout: product
 category: dream
 color: blue
 size: 5in x 7in

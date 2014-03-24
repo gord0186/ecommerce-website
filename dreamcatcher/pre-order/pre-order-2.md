@@ -1,5 +1,5 @@
 ---
-layout: dreamcatcher
+layout: product
 category: pre-order
 color: purple
 size: 4in x 7in

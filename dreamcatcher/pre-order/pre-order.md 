@@ -1,5 +1,5 @@
 ---
-layout: dreamcatcher
+layout: product
 category: pre-order
 color: green
 size: 4in x 7in

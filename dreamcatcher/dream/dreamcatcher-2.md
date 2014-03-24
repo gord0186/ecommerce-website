@@ -1,5 +1,5 @@
 ---
-layout: dreamcatcher
+layout: product
 category: dream
 color: brass
 size: 5in x 8in

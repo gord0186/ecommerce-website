@@ -1,5 +1,5 @@
 ---
-layout: dreamcatcher
+layout: product
 category: car
 color: purple
 size: 2in

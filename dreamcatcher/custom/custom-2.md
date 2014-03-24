@@ -1,5 +1,5 @@
 ---
-layout: dreamcatcher
+layout: product
 category: custom
 color: orange
 size: 5in x 7in

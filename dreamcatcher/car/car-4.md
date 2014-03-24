@@ -1,5 +1,5 @@
 ---
-layout: dreamcatcher
+layout: product
 category: car
 color: brown
 size: 1.5inch

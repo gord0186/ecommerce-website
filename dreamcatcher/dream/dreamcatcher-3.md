@@ -1,5 +1,5 @@
 ---
-layout: dreamcatcher
+layout: product
 category: dream
 color: red
 size: 4in x 7in
