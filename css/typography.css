@@ -28,6 +28,15 @@ a:hover{
 	color:rgba(68,179,108,1.00);
 }
 
+a:hover,
+a:active{
+	outline:none;
+}
+
+a:focus{
+	outline:2px solid rgba(26,255,0,1.00); 	
+}
+
 ::selection{
 	color:rgba(32,221,81,1.00);
 }

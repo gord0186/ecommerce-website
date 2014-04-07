@@ -2,43 +2,39 @@
 
 User testing was conducted by {your name} on {specific date} between the times of {start time} and {end time} with the following participants:
 
-- {Jane Doe}
-- {John Doe}
-- {Jordan Doe}
+- {kayla }
+- {Elisa Koon}
+- {Julia Paddick}
 
 ## Tasks
 
-1. {First task description here}
-2. {Second task description here}
-3. {Third task description here}
+1. {fin the company info}
+2. {find a pre ordered Dreamcetcher and buy it}
+3. {find the custom gallary page}
 
 ---
 
 ## Individual Results & Observations
 
-### {Jane Doe}
+### {Julia Paddick}
 
-- {She clicked on the link as expected…}
-- {She had troubles completing a specific task…}
-- {She asked these questions…}
-- {Fill in any observations that were important/relevant…}
-- etc.
+- {she did every thing that i expected}
+- {Had no Problem}
+- {she wanted to press on the custom horse shoe image}
 
-### {John Doe}
 
-- {He clicked on the link as expected…}
-- {He had troubles completing a specific task…}
-- {He asked these questions…}
-- {Fill in any observations that were important/relevant…}
-- etc.
+### {kayla }
 
-### {Jordan Doe}
+- {she did every thing that i expected}
+- {Had no Problem}
+- {she didn,t click on the gallary link in the nav she went to the produc page to see it}
 
-- {She clicked on the link as expected…}
-- {He had troubles completing a specific task…}
-- {She asked these questions…}
-- {Fill in any observations that were important/relevant…}
-- etc.
+
+### {Elisa Koon}
+
+- {she did every thing that i expected}
+- {Had no Problem}
+- {she didn't try to click on the image to make it bigger}
 
 ---
 
@@ -46,15 +42,12 @@ User testing was conducted by {your name} on {specific date} between the times o
 
 ### Critical, Needs Fixing, Unable to Complete
 
-- {All participants had this problem…}
-- etc.
+-N/A
 
 ### Serious, Causes Frustration, May Hinder Completion
 
-- {Two of the participants succeeded where one of them failed…}
-- etc.
+- {the images on the gallary page make bigger
 
 ### Minor, Annoying, Won’t Hinder Completion
 
-- {Participants pointed out this inconsistency…}
-- etc.
+N/A

@@ -3,20 +3,21 @@ layout: default
 title: Home
 meta: the site for horseshoe and car dreamcetcher
 ---
-<div>
-	<img class="home-image photo" src="{{site.baseurl}}/images/photos/horse-shoe-1.jpg" alt="horse shoe image">
-	
+<main role="main">
 	<div>
-		{% include banner.html text="Home" %}
-	</div>
+		<img class="home-image photo" src="{{site.baseurl}}/images/photos/horse-shoe-1.jpg" alt="horse shoe">
 		
-	<div class="l-float content">
-		<h1 class="giga white">Whispering Spirit</h1>
+		<div>
+			{% include banner.html text="Home" %}
+		</div>
+			
+		<div class="l-float content">
+			<h1 class="giga white">Whispering Spirit</h1>
+			
+			<p>Whispering Spirit is a new company that sells dream catcher horseshoes. The company was started by Laura Gordon because she want to give a friend something to remember her horse by so she took one of the shoes and decided to make a dreamcetcher out of it. Because she wanted the horse to still protect her and this way it keeps all of the bad dreams out and the good dream in. and after that a lot of people started to complementing her on the shoe so she decided to start making them and selling the and small art shows and from there it just took of.</p>
+		</div>
 		
-		<p>Whispering Spirit is a new company that sells dream catcher horseshoes. The company was started by Laura Gordon because she want to give a friend something to remember her horse by so she took one of the shoes and decided to make a dreamcetcher out of it. Because she wanted the horse to still protect her and this way it keeps all of the bad dreams out and the good dream in. and after that a lot of people started to complementing her on the shoe so she decided to start making them and selling the and small art shows and from there it just took of.</p>
-	</div>
-	
-</div>	
+	</div>	
 	<div class="content">
 		
 		
@@ -26,8 +27,9 @@ meta: the site for horseshoe and car dreamcetcher
 		
 		<a href="/dreamcatcher/#custom" class="hover unit-s-1-2 unit-m-1-2 unit-l-1-4">{% include promo-small.html title="Custom" image="custom-100.jpg" %}</a>
 		
-		<a href="/gallary/" class="hover unit-s-1-2 unit-m-1-2 unit-l-1-4">{% include promo-small.html title="Gallary" image="custom-100-100.jpg" %}</a>
+		<a href="/gallary/" class="hover unit-s-1-2 unit-m-1-2 unit-l-1-4">{% include promo-small.html title="Gallary" image="custom-100-100.jpg" %} </a>
 		
 		<a href="/dreamcatcher/#pre-order" class="hover unit-l-1 unit-m-1 unit-l-1">{% include promo-large.html lrg-title="Pre-orders" lrg-image="large-bucket.jpg" paragraphy=" Why pay full price for a custom horse shoe see what other people have ordered but never picked up" %}</a>
 		
 	</div>
+</main>
