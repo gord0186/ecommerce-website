@@ -10,7 +10,7 @@ price: $40.00
 discription: this is a green horse shoe that was custom made but not picked up 
 ---
 
-![ car dreamcatcher ](/images/custom-100-100.jpg)
+![ car dreamcatcher ]({{site.baseurl}}/images/custom-100-100.jpg)
 
 ## description
 
