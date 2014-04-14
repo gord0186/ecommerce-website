@@ -3,9 +3,12 @@
 
 .promo img{
 	width:100%;
-	position:static;
+	position:relative;
 	}
-	
+
+.promo{
+	position:relative;	
+}
 .hover-title{
 	overflow:auto;
 	padding:.5rem;
@@ -22,13 +25,19 @@
 .large{
 	width:98.5%;
 	}
+
+.relitive{
+	position:relative;
+}
 	
-	.lrg-pra{
-		background:rgba(118,50,6,0.40);
-		color:black;	
-		margin-top:-.4rem;
-		overflow:hidden;
-	}
+.lrg-pra{
+	background:rgba(118,50,6,0.40);
+	color:black;	
+	margin-top:-.4rem;
+	overflow:hidden;
+}
+	
+
 
 @media only screen and (min-width: 22em){
 .hover-title{
@@ -44,6 +53,8 @@
 	margin-bottom:.25rem;
 	font-size: 1.4238rem;
   	line-height: 1.0535;
+	bottom:3px;
+	left:0px;
 }
 
 }

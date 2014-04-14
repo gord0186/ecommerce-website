@@ -1,24 +1,27 @@
 <div class="promo">
-	<ul  class="no-bullet">
+	
 		{% for dreamcatcher in site.pages %}
 			{% if dreamcatcher.category == "car" %}
-				<li class="btm-border-none hover unit-s-1 unit-m-1-2 unit-l-1-4">
-					<a href="{{site.baseurl}}{{dreamcatcher.url}}">
-						<img src="{{site.baseurl}}/images/{{dreamcatcher.image}}" alt="horse shoe image"/>
-
+				<div class="btm-border-none  unit-s-1 unit-m-1-2 unit-l-1-4">
+					<div class="relitive">
+						<a class="hover" href="{{site.baseurl}}{{dreamcatcher.url}}">
+							<img src="{{site.baseurl}}/images/{{dreamcatcher.image}}" alt="horse shoe image"/>
+						</a>
 						<h2 class="hover-title">{{dreamcatcher.price}}</h2>
-						
-						<div class="content lrg-pra float">
-							<h5>{{dreamcatcher.name}}</h5>
-							<p>{{dreamcatcher.discription}}</p>
+					</div>	
+						<div class="lrg-pra content ">
+							<div class=" black">
+								<h5>{{dreamcatcher.name}}</h5>
+								<p>{{dreamcatcher.discription}}</p>
+							</div>
+							
+							<a href="{{site.baseurl}}/cart/"><h6 class="btn">buy Now</h6></a>
+							
 						</div>
-					</a>
-					<div class="lrg-pra">
-						<a href="{{site.baseurl}}/cart/"><h6 class="btn">buy Now</h6></a>
-					</div>
-				</li>
+					
+				</div>
 			{% endif %}
 		{% endfor %}
-	</ul>
+	
 </div>
 
