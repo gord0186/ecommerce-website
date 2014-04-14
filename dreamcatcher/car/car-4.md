@@ -10,7 +10,7 @@ price: $25.00
 discription: this is a purple horse shoe that was custom made but not picked up 
 ---
 
-![dreamcatcher](/images/photos/car/brown.jpg)
+![dreamcatcher]({{site.baseurl}}/images/photos/car/brown.jpg)
 
 ## description
 
