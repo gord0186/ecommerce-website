@@ -8,6 +8,7 @@
 }
 
 .search{
+	overflow:hidden;
 	background-color:#FAF8F8;
 	border-radius:4px;
 	box-shadow:1px 1px 3px rgba(0,0,0,.5) inset;
