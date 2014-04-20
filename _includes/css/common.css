@@ -53,7 +53,7 @@ html{
 	
 	.l-float{
 		position:absolute;
-		top:14%;
+		top:20%;
 		left:45%;
 		width:50%;
 		color:rgba(203,200,200,.75);
@@ -65,7 +65,7 @@ html{
 	
 	.about-l-float{
 		position:absolute;
-		top:16%;
+		top:22%;
 		left:51%;
 		width:45%;
 		color:rgba(203,200,200,.75);
