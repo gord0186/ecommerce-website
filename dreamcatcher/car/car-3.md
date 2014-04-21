@@ -5,13 +5,14 @@ color: red
 size: 1.5inch
 feather: real
 image: photos/car-100.jpg
-name: Red Car Mirror Dreamcatcher
+name: Red Car Dreamcatcher
 price: $25.00
-discription: this is a purple horse shoe that was custom made but not picked up 
 ---
+
+## Red Car Dreamcatcher
 
 ![ car dreamcatcher ]({{site.baseurl}}/images/photos/car-100.jpg)
 
-## description
+### Description
 
-this is the car dreamcatcher
+These dream catchers are made to hang from the mirror inside your car. They make a great decoration and add a little bit of colour to you automobile.

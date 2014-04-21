@@ -7,11 +7,11 @@ feather: real
 image: photos/dream/red.jpg
 name: Red Dreamcatcher
 price: $35.00
-discription: this is a purple horse shoe that was custom made but not picked up 
 ---
+## Red Dreamcatcher
 
 ![ car dreamcatcher ]({{site.baseurl}}/images/photos/dream/red.jpg)
 
-## description
+### Description
 
-this is the car dreamcatcher
+These dreamer catchers are a unique and creative way to recycle old horseshoes into a useful and creative piece of artwork.

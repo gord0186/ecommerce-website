@@ -7,11 +7,11 @@ feather: real
 image: photos/car/brown.jpg
 name: Brown Car Dreamcatcher
 price: $25.00
-discription: this is a purple horse shoe that was custom made but not picked up 
 ---
+## Brown Car Dreamcatcher
 
 ![dreamcatcher]({{site.baseurl}}/images/photos/car/brown.jpg)
 
-## description
+### Description
 
-this is the car dreamcatcher.
+These dream catchers are made to hang from the mirror inside your car. They make a great decoration and add a little bit of colour to you automobile.
