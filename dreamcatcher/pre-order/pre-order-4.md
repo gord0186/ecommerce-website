@@ -11,7 +11,7 @@ price: $40.00
 
 ## Green Custom
 
-![ car dreamcatcher ]({{site.baseurl}}/images/custom-100-100.jpg)
+![ car dreamcatcher ]({{site.baseurl}}/images/photos/custom-100-100.jpg)
 
 ### Description
 
